@@ -5,8 +5,6 @@ TEST(_, Add) {
     ASSERT_EQ(add(1, 10), 11);
 }
 
-#include <gtest/gtest.h>
-
 TEST(_, Subtract) {
     ASSERT_EQ(subtract(10, 5), 5);
     ASSERT_EQ(subtract(0, 5), -5);
