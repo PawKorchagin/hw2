@@ -6,3 +6,7 @@ CMakeFiles
 *.cmake
 _deps
 Makefile
+*.a
+Testing
+hw_test
+bin/hw2
