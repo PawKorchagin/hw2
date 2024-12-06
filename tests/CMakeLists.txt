@@ -22,8 +22,8 @@ target_link_libraries(
   GTest::gtest_main
 )
 
-target_include_directories(op_tests PUBLIC ${PROJECT_SOURCE_DIR})
+target_include_directories(hw_test PUBLIC ${PROJECT_SOURCE_DIR})
 
 include(GoogleTest)
 
-gtest_discover_tests(op_tests)
+gtest_discover_tests(hw_test)
